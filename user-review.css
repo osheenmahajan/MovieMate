@@ -1,0 +1,74 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5; /* Light gray background */
+  margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./img/main\ pg\ 2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  max-width: 90%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ccc;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+input[type="text"] {
+  color: blue;
+  font-size: 1.2rem;
+}
+
+textarea {
+  color: red;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  fill: gray;
+}
+
+textarea {
+  resize: vertical;
+  height: 150px;
+  font-size: 1.3rem;
+}
+
+button[type="submit"] {
+  background-color: #2196f3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #1976d2;
+}

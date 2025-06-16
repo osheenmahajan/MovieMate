@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Review</title>
+    <link rel="stylesheet" href="browseMovies.css" />
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="review.css" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary-dark">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand"
+          href="#"
+          style="
+            color: orange;
+            font-size: 2rem;
+            margin-left: 10px;
+            font-family: Pacifico, cursive;
+            font-weight: 400;
+            font-style: normal;
+          "
+          >MovieMate</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+              id="home"
+              class="nav-link active"
+              aria-current="page"
+              href="index.html"
+              style="
+                color: whitesmoke;
+                font-size: 1.37rem;
+                margin-left: 2rem;
+                font-family: Roboto, sans-serif;
+                font-weight: 700;
+                font-style: normal;
+              "
+              >Home</a
+            >
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="book_tickets.html"
+              style="
+                color: whitesmoke;
+                font-size: 1.37rem;
+                margin-left: 2rem;
+                font-family: Roboto, sans-serif;
+                font-weight: 700;
+                font-style: normal;
+              "
+              >Book Tickets</a
+            >
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="contact us.html"
+              style="
+                color: whitesmoke;
+                font-size: 1.37rem;
+                margin-left: 2rem;
+                font-family: Roboto, sans-serif;
+                font-weight: 700;
+                font-style: normal;
+              "
+              >Contact Us</a
+            >
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="login.html"
+              style="
+                color: whitesmoke;
+                font-size: 1.37rem;
+                margin-left: 2rem;
+                font-family: Roboto, sans-serif;
+                font-weight: 700;
+                font-style: normal;
+              "
+              >Login</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- review-page -->
+    <section class="review-page container">
+      <div id="review-format">
+        <div id="left-content">
+          <img
+            id="movie-img"
+            src="img/popular-movie-6.jpg"
+            alt="Movie Poster"
+          />
+          <h2 id="movie-name">Interstellar</h2>
+        </div>
+        <div id="right-content">
+          <h3>Rating and Description</h3>
+          <div class="rating">
+            <i class="bx bxs-star star"></i>
+            <i class="bx bxs-star star"></i>
+            <i class="bx bxs-star star"></i>
+            <i class="bx bxs-star star"></i>
+            <i class="bx bxs-star-half star"></i>
+          </div>
+          <p>
+            "Interstellar" is a visually stunning and thought-provoking sci-fi
+            epic directed by Christopher Nolan. The film explores humanity's
+            survival as Earth faces environmental collapse, leading a group of
+            astronauts, led by Cooper, to embark on a daring mission to find a
+            new home among the stars. The movie combines breathtaking visuals,
+            complex scientific concepts, and deep emotional themes about love,
+            sacrifice, and the passage of time. While the film's ambitious
+            narrative can be challenging for some viewers, "Interstellar" is a
+            captivating exploration of space and human spirit that resonates on
+            multiple levels.
+          </p>
+          <div class="comments">
+            <h3>Comments</h3>
+            <div class="comment">
+              <span class="user-name">Lily</span>
+              <p class="comment-text">
+                Interstellar is a visually stunning masterpiece. The story is
+                both epic and deeply personal.
+              </p>
+            </div>
+            <div class="comment">
+              <span class="user-name">James</span>
+              <p class="comment-text">
+                The science was fascinating, and the emotional depth really
+                surprised me. One of Nolan's best!
+              </p>
+            </div>
+            <div class="comment">
+              <span class="user-name">Grace</span>
+              <p class="comment-text">
+                The visuals and soundtrack were incredible. It's a movie that
+                makes you think and feel.
+              </p>
+            </div>
+            <div class="comment">
+              <span class="user-name">Daniel</span>
+              <p class="comment-text">
+                Interstellar is a beautifully made film with a complex but
+                rewarding story. Highly recommend!
+              </p>
+            </div>
+            <div class="comment">
+              <span class="user-name">Sophia</span>
+              <p class="comment-text">
+                An amazing experience, though the science can be a bit heavy.
+                Still, it's a must-watch for sci-fi fans.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- user review btn is here -->
+      <br /><br />
+      <a href="user-review1.html" class="review-btn">Add your Review</a>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Movie Review & Booking. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      let reviewBtn = document.querySelector(".review-btn");
+      let page_url = location.pathname.split("/");
+      let page = page_url[page_url.length - 1];
+
+      reviewBtn.addEventListener("click", () => {
+        localStorage.setItem("page", page);
+        window.location.href = "user-review1.html";
+      });
+      window.onload = function () {
+        let arr = JSON.parse(localStorage.getItem("arr"));
+
+        // If a review exists, create a new comment element
+        for (let j = 0; j < arr.length; j++) {
+          if (arr[j].username && arr[j].content && arr[j].page == page) {
+            let div = document.createElement("div");
+            div.classList.add("comment");
+            div.innerHTML = `<span class="user-name">${arr[j].username}</span>
+                     <p class="comment-text">${arr[j].content}</p>`;
+            document.querySelector(".comments").appendChild(div);
+          }
+        }
+      };
+    </script>
+  </body>
+</html>
