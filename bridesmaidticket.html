@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Your Tickets</title>
+    <link rel="stylesheet" href="bookticket.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Left Side: Movie Details -->
+        <div class="movie-details">
+            <h1>Bridesmaids</h1>
+            <h2>Theatre: Regal Cinemas</h2>
+            <p>Date: 10th September 2026</p>
+            <p>Show Time: 5:00 PM</p>
+
+            <button onclick="openModal()">Add Your Tickets!!!!</button>
+        </div>
+
+        <!-- Right Side: Movie Poster -->
+        <img src="img/bridesmaid.jpg" alt="Movie Poster"> 
+
+        <!-- Total Bill -->
+        <div class="total-bill">
+            <p>Total Tickets: <span id="ticketCount">0</span></p>
+            <p>Total Bill: Rs. <span id="totalBill">0</span></p>
+        </div>
+
+        <!-- Pay Button -->
+        <button class="pay-button" onclick="pay()">Pay Securely</button>
+    </div>
+
+    <!-- Modal for adding tickets -->
+    <div class="modal" id="ticketModal">
+        <div class="modal-content">
+            <h2>Add Tickets</h2>
+            <input type="number" id="ticketInput" min="1" placeholder="No. of Tickets">
+            <br>
+            <button onclick="addTickets()">OK</button>
+        </div>
+    </div>
+
+    <script src="bookticket.js"></script>
+
+</body>
+</html>
